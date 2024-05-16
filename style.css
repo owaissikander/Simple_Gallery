@@ -1,0 +1,42 @@
+h2 {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.largeImage1 {
+    height: 300px;
+    width: 380px;
+
+
+}
+
+.largeImage1>img {
+    width: 380px;
+    height: 300px;
+    border-radius: 12px;
+}
+
+.smallImage2 {
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+    width: 380px;
+
+}
+
+.smallImage2>img {
+    margin-top: 10px;
+    height: 80px;
+    width: 85px;
+    border-radius: 12px;
+}
